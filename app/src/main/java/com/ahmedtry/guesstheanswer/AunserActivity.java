@@ -3,6 +3,7 @@ package com.ahmedtry.guesstheanswer;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 public class AunserActivity extends AppCompatActivity {
@@ -19,4 +20,7 @@ public class AunserActivity extends AppCompatActivity {
             mTextViewAnswer.setText(answer);
         }
         }
+    public void onClickReturn(View view){
+        finish();
+    }//دالة الرجوع
     }

@@ -92,7 +92,7 @@
         android:layout_marginStart="32dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="32dp"
-        android:background="@drawable/button_purple"
+        android:background="@drawable/button_true"
         android:text="صحيح"
         android:onClick="onTrueClicked"
         android:textColor="@color/white"

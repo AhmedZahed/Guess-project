@@ -52,6 +52,7 @@
         android:layout_marginBottom="16dp"
         android:background="@drawable/button_purple"
         android:text="الرجوع"
+        android:onClick="onClickReturn"
         android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
